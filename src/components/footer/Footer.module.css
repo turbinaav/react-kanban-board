@@ -1,0 +1,24 @@
+footer {
+    height: 55px;
+    background: #0067A3;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.tasks {
+    display: flex;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 17px 21px;
+}
+
+.tasks span {
+    margin-right: 36px;
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        display: none;
+    }
+  }

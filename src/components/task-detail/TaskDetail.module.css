@@ -1,0 +1,39 @@
+.taskDetailWrapper {
+	background: #fff;
+	border-radius: 8px;
+	padding: 30px;
+	height: 548px;
+}
+
+.taskDetailHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 25px;
+}
+
+.title {
+	margin: 0;
+}
+
+.homeLink {
+	display: block;
+	text-decoration: none;
+	color: #000000;
+}
+
+.taskDetailText {
+    border: none;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 21px;
+	padding: 5px;
+	margin: 35px 0;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+.taskDetailText:focus, .taskDetailText:hover {
+	outline: 1px solid #DEDEDE;
+	border-radius: 5px;
+}

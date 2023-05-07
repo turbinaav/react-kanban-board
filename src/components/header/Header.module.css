@@ -1,0 +1,120 @@
+header {
+  height: 55px;
+  background: #0067A3;
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+
+.logo {
+  margin: 11px 0 0 20px;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-right: 22px;
+}
+
+.avatar {
+  margin: 7px 7px 0;
+}
+
+.button {
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.arrowUp {
+  border: solid #FFFFFF;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  transform: rotate(-135deg);
+}
+
+.arrowDown {
+  border: solid #FFFFFF;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  transform: rotate(45deg);
+}
+
+.headerList {
+  display: block;
+  width: 64px;
+  margin-right: 25px;
+}
+
+.select {
+  position: relative;
+  height: 60px;
+  width: 134px;
+  float: right;
+  margin: 12px -25px 0;
+  background-color: #FFFF;
+  border: none;
+  border-radius: 5px;
+  color: #000000;
+  padding: 0;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 16px;
+  overflow-y: clip;
+}
+
+.option {
+  margin: 0;
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+  list-style: none;
+  padding: 7px;
+}
+
+.option:hover {
+  background-color: #DEDEDE;
+  border-radius: 5px;
+}
+
+.option:checked {
+  background-color: #DEDEDE;
+  border: none;
+}
+
+.point {
+  width: 11px;
+  height: 11px;
+  background-color: #FFFF;
+  transform: rotate(45deg);
+  position: absolute;
+  margin: 6.5px 0 0 23px;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    background: none;
+    justify-content: end;
+    margin-top: 3px;
+  }
+  
+  .logo {
+    display: none;
+  }
+
+  .select {
+    margin: 12px -14px 0;
+  }
+
+  .headerSelect {
+    margin-bottom: 40px;
+  }
+}

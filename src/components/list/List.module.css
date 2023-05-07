@@ -1,0 +1,92 @@
+.list {
+    width: 350px;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: 15px;
+    box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+}
+
+.taskLink {
+    text-decoration: none;
+}
+
+.addButton {
+    color: #5E6C84;
+    border-radius: 5px;
+    margin: 0 12px 5px;
+    padding: 4px 8px;
+}
+
+.addButton:hover:enabled {
+    background-color: #FFFFFF;
+    padding: 4px 8px;
+    color: #000000;
+}
+
+.addButton:active:enabled {
+    transform: scale(0.95);
+}
+
+.addButton:disabled {
+    cursor: default;
+    color: #5e6c845c;
+    background-color: #FFFFFF
+}
+
+.card {
+    width: 282px;
+    height: fit-content;
+    max-height: 550px;
+    border-radius: 10px;
+    background: #EBECF0;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    overflow-x: hidden;
+}
+
+.card::-webkit-scrollbar {
+    width: 12px;
+}
+
+.card::-webkit-scrollbar-track {
+    margin: 45px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.card::-webkit-scrollbar-thumb {
+    background-color: #a9a9a9;
+    border-radius: 12px;
+}
+
+.cardTitle {
+    padding: 12px 12px 0;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.ul {
+    padding: 0;
+    margin: 12px;
+}
+
+.li {
+    list-style: none;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 7px;
+}
+
+.li:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        margin: 45px;
+    }
+}
