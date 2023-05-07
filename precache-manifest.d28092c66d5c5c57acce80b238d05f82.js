@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/kanban-board/static/media/user_avatar.19057908.svg"
   },
   {
-    "revision": "d456357fd027d5089a41d923bfc26093",
+    "revision": "1cb28caf8696251aeb93a91162504245",
     "url": "/kanban-board/index.html"
   }
 ];
