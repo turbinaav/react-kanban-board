@@ -46,7 +46,7 @@ const List = props => {
                 (type === LIST_TYPES.BACKLOG) ?
                     (<AddNewTask addNewTask={addNewTask} setFormVisible={setFormVisible} />)
                     :
-                    (<Select selectList={selectList} allTasks={allTasks} setTasks={setTasks} setFormVisible={setFormVisible} /*setSelect={setSelect}*/ type={type} />)
+                    (<Select selectList={selectList} allTasks={allTasks} setTasks={setTasks} setFormVisible={setFormVisible} type={type} />)
             )}
         </div>
     )
